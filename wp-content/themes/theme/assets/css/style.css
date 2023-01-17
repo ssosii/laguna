@@ -133,34 +133,6 @@ a:visited, a:hover {
           transform: rotate(-45deg) translate(35px, 35px);
 }
 
-#cookies-message {
-  border-radius: 14px;
-}
-#cookies-message .cookie__message {
-  font-size: 12px;
-  line-height: 1.1;
-}
-#cookies-message a[name=accept-cookies] {
-  background-size: 300% 100%;
-  border-radius: 10px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#051527), color-stop(#0d3461), color-stop(#051527), to(#0d3461));
-  background-image: linear-gradient(to right, #051527, #0d3461, #051527, #0d3461);
-  -webkit-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
-}
-#cookies-message a[name=accept-cookies]:hover {
-  background-position: 100% 0;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-@media screen and (max-width: 375px) {
-  #cookies-message {
-    right: 50% !important;
-    -webkit-transform: translateX(50%) !important;
-            transform: translateX(50%) !important;
-  }
-}
 body.page_ header,
 body.page_ footer {
   display: none;
@@ -306,4 +278,13 @@ body.page_ #g6219 {
     -webkit-transform: rotate(0);
             transform: rotate(0);
   }
+}
+
+.svg {
+  outline: 1px solid red;
+}
+.svg .st0:hover {
+  fill: red !important;
+  opacity: 0.9;
+  cursor: pointer;
 }

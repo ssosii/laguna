@@ -9,3 +9,14 @@
 @import "base/header";
 @import "base/footer";
 @import "base/404";
+
+.svg {
+  outline: 1px solid red;
+  .st0 {
+    &:hover {
+      fill: red !important;
+      opacity:0.9;
+      cursor:pointer;
+    }
+  }
+}
