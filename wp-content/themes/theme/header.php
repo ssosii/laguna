@@ -33,22 +33,31 @@
 </head>
 <body class="<?php if (is_front_page()) : ?>home<?php else:?>page_<?= get_the_ID();?><?php endif; ?>">
 
-<header id="header">
-    <div class="transition transition-1 is-active"></div>
-    <div class="header__inner">
-        <div class="header__container">
-            <nav class="header__nav">
-                <?php
-                    wp_nav_menu(array(
-                    'theme_location' => 'main',
-                    'container' => 'ul',
-                    'menu_class' => 'header__list'
-                    ));
-                ?>
-            </nav>
-            <div class="burger">
-                <div class="burger__item"></div>
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__container">
+                <div class="header__container_inner container">
+                <div class="header__left">
+                    <a href="<?php echo get_home_url(); ?>" class="header__logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="logo">
+                    </a>
+                    <nav id="main__nav" class="header__nav">
+                        <?php
+                        wp_nav_menu(array(
+                            'theme_location' => 'main',
+                            'container' => 'ul',
+                            'menu_class' => 'header__items'
+                        ));
+                        ?>
+                    </nav>
+                </div>
+          
+                </div>
+                <div class="header__burger">
+                    <div class="header__burger-item"></div>
+                </div>
+            </div>
             </div>
         </div>
-    </div>
-</header>
+        <div class="arrow__up"></div>
+    </header>
