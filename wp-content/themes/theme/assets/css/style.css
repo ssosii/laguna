@@ -1,7 +1,10 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap);
 html,
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
 * {
@@ -182,10 +185,10 @@ header .header__right .nav__items > a > p {
   margin: 0 0 0 10px;
 }
 header .header__right .nav__items > a:hover > p {
-  color: red;
+  color: #1e4fa8;
 }
 header .header__right .nav__items > a:hover svg > * {
-  stroke: red;
+  stroke: #1e4fa8;
 }
 header .header__right .nav__items > a.bascket .icon {
   position: relative;
@@ -197,7 +200,7 @@ header .header__right .nav__items > a.bascket .count {
   font-size: 10px;
   color: #253549;
   padding: 1px 5px;
-  background-color: red;
+  background-color: #1e4fa8;
   border-radius: 50%;
   margin: 0;
 }
@@ -282,10 +285,10 @@ header .header__items > li > a {
   color: #fff;
 }
 header .header__items > li > a:hover {
-  color: red;
+  color: #1e4fa8;
 }
 header .header__items > li.current-menu-item > a {
-  color: red;
+  color: #1e4fa8;
 }
 header .header__items > li:not(:last-child) {
   margin-right: 25px;
@@ -337,7 +340,7 @@ header .header__items > li:nth-child(1) .sub-menu > li > a {
   font-size: 16px;
 }
 header .header__items > li:nth-child(1) .sub-menu > li > a:hover {
-  color: red;
+  color: #1e4fa8;
 }
 header .header__burger {
   display: none;
@@ -476,7 +479,7 @@ header .header__btn {
   }
   header .header__items > li:first-child .sub-menu > li:last-child {
     padding-bottom: 15px;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #1e4fa8;
   }
   header .header__items > li:first-child .sub-menu > li a {
     font-size: 25px;
@@ -810,6 +813,50 @@ body.page_ #g6219 {
     -webkit-transform: rotate(0);
             transform: rotate(0);
   }
+}
+
+#single-box {
+  padding: 5rem;
+  color: #4f4f4f;
+}
+#single-box .single-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+#single-box .single-box__element {
+  -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+}
+@media screen and (min-width: 990px) {
+  #single-box .single-box__element {
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+  }
+}
+#single-box .single-box__title {
+  margin: 0;
+}
+#single-box .single-box__title--small {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+#single-box .single-box__title--big {
+  font-size: 3rem;
+  color: #1e4fa8;
+  position: relative;
+  padding-bottom: 1rem;
+}
+#single-box .single-box__text {
+  font-size: 1.5rem;
+}
+#single-box .single-box__image {
+  width: 100%;
 }
 
 .svg {

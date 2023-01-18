@@ -1,5 +1,6 @@
 // Layout
 @import "general/global";
+@import "general/grid";
 @import "general/variables";
 @import "general/fonts";
 @import "general/animation";
@@ -10,13 +11,17 @@
 @import "base/footer";
 @import "base/404";
 
+//PAGES
+
+@import "./home";
+
 .svg {
   outline: 1px solid red;
   .st0 {
     &:hover {
       fill: red !important;
-      opacity:0.9;
-      cursor:pointer;
+      opacity: 0.9;
+      cursor: pointer;
     }
   }
 }

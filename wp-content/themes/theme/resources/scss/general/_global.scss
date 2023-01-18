@@ -2,6 +2,8 @@ html,
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
 * {
@@ -36,9 +38,10 @@ body {
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
-	&:visited, &:hover {
-		text-decoration: none;
-	}
+  color: inherit;
+  text-decoration: none;
+  &:visited,
+  &:hover {
+    text-decoration: none;
+  }
 }
