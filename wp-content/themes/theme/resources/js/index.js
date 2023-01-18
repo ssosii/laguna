@@ -8,6 +8,7 @@ import("./funcs/navigation").then(({ default: navigation }) =>
 
 
 import headerScrolled from "./funcs/headerScrolled";
+import map from "./funcs/map"
 
 import fadeInElements from "./funcs/fadeInElements";
 // import("./funcs/langSwitcher").then(({ default: switcher }) => switcher());
@@ -17,6 +18,7 @@ import fadeInElements from "./funcs/fadeInElements";
 document.addEventListener("DOMContentLoaded", () => {
     fadeInElements();
     headerScrolled(61);
+    map();
   });
 
   transition();

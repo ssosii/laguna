@@ -95,15 +95,19 @@ a:visited, a:hover {
   z-index: 101;
   width: 30px;
   height: 30px;
-  margin-left: 10px;
+  margin-left: 20px;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  outline: 1px solid red;
   overflow: hidden;
+}
+@media screen and (min-width: 990px) {
+  .burger {
+    display: none;
+  }
 }
 .burger:hover .burger__item,
 .burger:hover .burger__item:before,
@@ -114,7 +118,7 @@ a:visited, a:hover {
 .burger__item {
   width: 30px;
   height: 3px;
-  background-color: #fff;
+  background-color: #1e4fa8;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   pointer-events: none;
@@ -126,7 +130,7 @@ a:visited, a:hover {
   position: absolute;
   width: 30px;
   height: 3px;
-  background: #fff;
+  background-color: #1e4fa8;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -179,6 +183,7 @@ body._header-scrolled .header--component .burger__item::after, body._header-scro
   z-index: 98;
   -webkit-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
+  padding: 15px 0;
 }
 .header--component:after {
   -webkit-transition: all 0.4s;
@@ -218,6 +223,11 @@ body._header-scrolled .header--component .burger__item::after, body._header-scro
   border-radius: 15px;
   font-size: 16px;
 }
+@media screen and (max-width: 767px) {
+  .header--component .estimate {
+    display: none;
+  }
+}
 .header--component .estimate:hover {
   opacity: 1;
 }
@@ -255,7 +265,7 @@ body._navigation-open .navigation--component {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .navigation--component {
     position: fixed;
     right: 0;
@@ -288,8 +298,9 @@ body._navigation-open .navigation--component {
   }
   .navigation--component .links > li {
     margin-right: 0 !important;
-    font-size: 18px;
+    font-size: 22px;
     display: block !important;
+    margin-bottom: 10px;
   }
   .navigation--component .links > li .sub-menu {
     -webkit-box-shadow: none !important;
@@ -331,11 +342,9 @@ body._navigation-open .navigation--component {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 15px;
-  margin-top: 15px;
 }
 .navigation--component .links > li > a {
-  font-size: 16px;
+  font-size: 19px;
 }
 .navigation--component .links > li > a:hover {
   color: #1e4fa8;
@@ -576,11 +585,37 @@ body.page_ #g6219 {
   width: 100%;
 }
 
-.svg {
-  outline: 1px solid red;
+#map .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.svg .st0:hover {
+#map .map {
+  width: 300px;
+}
+#map .map #svg2 .st0 {
+  fill: #1e4fa8 !important;
+}
+#map .map #svg2 .st0:hover {
   fill: red !important;
   opacity: 0.9;
   cursor: pointer;
+}
+#map .list {
+  margin-left: 40px;
+  width: 300px;
+}
+#map .list .item {
+  padding: 4px 5px;
+  font-size: 13px;
+  display: block;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#map .list .item:hover {
+  background-color: #e0320f;
+  color: white;
 }
