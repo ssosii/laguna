@@ -6,17 +6,131 @@
   .map {
     width: 300px;
     #svg2 {
-
-        .st0 {
-          fill: $primary !important;
-          &:hover {
-            fill: red !important;
-            opacity: 0.9;
-            cursor: pointer;
-          }
+      .st0 {
+        fill: $primary !important;
+        transition: all 0.2s;
+        &:hover {
+          fill: red !important;
+          transition: all 0.2s;
+          opacity: 0.9;
+          cursor: pointer;
         }
       }
-      
+    }
+
+    .region-I {
+      #region-I {
+        transition: all 0.2s;
+        fill: red !important;
+      }
+    }
+
+    .region-II {
+        #region-II {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+      .region-III {
+        #region-III {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+      .region-IV {
+        #region-IV {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+
+      .minaropa {
+        #minaropa {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+      .region-V {
+        #region-V {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+
+      .region-VI {
+        #region-VI {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+      .region-VII {
+        #region-VII {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+
+      .region-VIII {
+        #region-VIII {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+
+      .region-IX {
+        #region-IX {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+
+      .region-X {
+        #region-X {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+      .region-XI {
+        #region-XI {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+
+      .region-XII {
+        #region-XII {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+
+      .region-XIII {
+        #region-XIII {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+
+      .NCR {
+        #NCR {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+      .CAR {
+        #CAR {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+      .BARM {
+        #BARM {
+            transition: all 0.2s;
+          fill: red !important;
+        }
+      }
+ 
+
   }
   .list {
     margin-left: 40px;
@@ -25,7 +139,7 @@
       padding: 4px 5px;
       font-size: 13px;
       display: block;
-      transition: all 0.5s;
+      transition: all 0.2s;
       &:hover {
         background-color: $secondary;
         color: white;

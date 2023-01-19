@@ -598,11 +598,100 @@ body.page_ #g6219 {
 }
 #map .map #svg2 .st0 {
   fill: #1e4fa8 !important;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 #map .map #svg2 .st0:hover {
   fill: red !important;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
   opacity: 0.9;
   cursor: pointer;
+}
+#map .map .region-I #region-I {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .region-II #region-II {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .region-III #region-III {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .region-IV #region-IV {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .minaropa #minaropa {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .region-V #region-V {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .region-VI #region-VI {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .region-VII #region-VII {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .region-VIII #region-VIII {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .region-IX #region-IX {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .region-X #region-X {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .region-XI #region-XI {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .region-XII #region-XII {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .region-XIII #region-XIII {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .NCR #NCR {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .CAR #CAR {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
+}
+#map .map .BARM #BARM {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  fill: red !important;
 }
 #map .list {
   margin-left: 40px;
@@ -612,8 +701,8 @@ body.page_ #g6219 {
   padding: 4px 5px;
   font-size: 13px;
   display: block;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 #map .list .item:hover {
   background-color: #e0320f;
