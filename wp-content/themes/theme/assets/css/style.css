@@ -21,6 +21,13 @@ body {
   width: 100%;
 }
 
+.main--title {
+  font-size: 3rem;
+  color: #1e4fa8;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -298,7 +305,7 @@ body._navigation-open .navigation--component {
   }
   .navigation--component .links > li {
     margin-right: 0 !important;
-    font-size: 22px;
+    font-size: 26px;
     display: block !important;
     margin-bottom: 10px;
   }
@@ -334,7 +341,6 @@ body._navigation-open .navigation--component {
   padding-left: 0;
 }
 .navigation--component .links > li {
-  outline: 1px solid red;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -345,9 +351,28 @@ body._navigation-open .navigation--component {
 }
 .navigation--component .links > li > a {
   font-size: 19px;
+  position: relative;
+}
+.navigation--component .links > li > a:after {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: 0px;
+  width: 100%;
+  border-bottom: 1px solid #5870ec;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform-origin: left;
+  transform-origin: left;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
 }
 .navigation--component .links > li > a:hover {
   color: #1e4fa8;
+}
+.navigation--component .links > li > a:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 .navigation--component .links > li.current-menu-item > a {
   color: #1e4fa8;
@@ -363,7 +388,7 @@ body._navigation-open .navigation--component {
 }
 .navigation--component .links > li .sub-menu {
   position: absolute;
-  top: 30px;
+  top: 50px;
   left: 50%;
   background-color: #253549;
   -webkit-box-shadow: 0px 0px 12px 0px rgba(30, 44, 61, 0.7);
@@ -382,9 +407,6 @@ body._navigation-open .navigation--component {
 .navigation--component .links > li .sub-menu > li {
   list-style: none;
   text-align: center;
-}
-.navigation--component .links > li .sub-menu > li:not(:last-child) {
-  margin-bottom: 10px;
 }
 .navigation--component .links > li .sub-menu > li > a {
   color: #fff;
@@ -592,9 +614,28 @@ body.page_ #g6219 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 991px) {
+  #map .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 #map .map {
-  width: 300px;
+  width: 30%;
+}
+@media screen and (max-width: 991px) {
+  #map .map {
+    display: none;
+  }
+}
+#map .map #svg2 {
+  width: 100%;
 }
 #map .map #svg2 .st0 {
   fill: #1e4fa8 !important;
@@ -694,15 +735,40 @@ body.page_ #g6219 {
   fill: red !important;
 }
 #map .list {
+  width: 30%;
   margin-left: 40px;
-  width: 300px;
+}
+@media screen and (max-width: 991px) {
+  #map .list {
+    width: 100%;
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 #map .list .item {
-  padding: 4px 5px;
-  font-size: 13px;
+  padding: 6px 10px;
+  font-size: 15px;
   display: block;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+}
+@media screen and (max-width: 991px) {
+  #map .list .item {
+    width: 47%;
+  }
+}
+@media screen and (max-width: 575px) {
+  #map .list .item {
+    width: 100%;
+    text-align: center;
+  }
 }
 #map .list .item:hover {
   background-color: #e0320f;

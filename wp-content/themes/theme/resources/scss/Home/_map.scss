@@ -2,10 +2,19 @@
   .container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    @include lg-down(){
+      flex-direction: column;
+    }
   }
+
   .map {
-    width: 300px;
+    width: 30%;
+    @include lg-down(){
+      display:none;
+    }
     #svg2 {
+      width:100%;
       .st0 {
         fill: $primary !important;
         transition: all 0.2s;
@@ -133,13 +142,27 @@
 
   }
   .list {
+    width: 30%;
     margin-left: 40px;
-    width: 300px;
+    @include lg-down(){
+      width:100%;
+      margin-left: 0;
+      display:flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
     .item {
-      padding: 4px 5px;
-      font-size: 13px;
+      padding: 6px 10px;
+      font-size: 15px;
       display: block;
       transition: all 0.2s;
+      @include lg-down(){
+        width:47%;
+      }
+      @include sm-down(){
+        width:100%;
+        text-align: center;
+      }
       &:hover {
         background-color: $secondary;
         color: white;

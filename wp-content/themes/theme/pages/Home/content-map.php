@@ -1,9 +1,14 @@
 <section id="map">
 <div class="container">
+<h2 class="main--title">Regions</h2>
+</div>
+<div class="container">
     <div class="map">
         <?xml version="1.0" encoding="UTF-8" standalone="no"?>
         <!-- Created with Inkscape (http://www.inkscape.org/) -->
-        <svg data-type="" version="1.1" id="svg2" class="svg" width="307.71094" height="540" viewBox="0 0 307.71094 540"
+        <svg data-type="" version="1.1" id="svg2" class="svg" 
+      
+         viewBox="0 0 307.71094 540"
             sodipodi:docname="dot.svg" inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)" xml:space="preserve"
             xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
             xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
@@ -260,10 +265,11 @@
         </svg>
     </div>
     <div class="list">
+                <!-- <h4 class="title">Regions</h4> -->
                 <a href="#todo" data-type="region-I" class="item">Ilocos Region</a>
                 <a href="#todo" data-type="region-II" class="item">Cagayan Valley</a>
                 <a href="#todo" data-type="region-III" class="item">Central Luzon</a>
-                <a href="#todo" data-type="region-IV" class="item">CALABARZON</a>
+                <a href="#todo" data-type="region-IV" class="item">Calabarzon</a>
                 <a href="#todo" data-type="minaropa" class="item">MIMAROPA</a>
                 <a href="#todo" data-type="region-V" class="item">Bicol Region</a>
                 <a href="#todo" data-type="region-VI" class="item">Western Visayas</a>
