@@ -266,23 +266,23 @@
     </div>
     <div class="list">
                 <!-- <h4 class="title">Regions</h4> -->
-                <a href="#todo" data-type="region-I" class="item">Ilocos Region</a>
-                <a href="#todo" data-type="region-II" class="item">Cagayan Valley</a>
-                <a href="#todo" data-type="region-III" class="item">Central Luzon</a>
-                <a href="#todo" data-type="region-IV" class="item">Calabarzon</a>
-                <a href="#todo" data-type="minaropa" class="item">MIMAROPA</a>
-                <a href="#todo" data-type="region-V" class="item">Bicol Region</a>
-                <a href="#todo" data-type="region-VI" class="item">Western Visayas</a>
-                <a href="#todo" data-type="region-VII" class="item">Central Visayas</a>
-                <a href="#todo" data-type="region-VIII" class="item">Eastern Visayas</a>
-                <a href="#todo" data-type="region-IX" class="item">Zamboanga Peninsula</a>
-                <a href="#todo" data-type="region-X" class="item">Northern Mindanao</a>
-                <a href="#todo" data-type="region-XI" class="item">Davao Region</a>
-                <a href="#todo" data-type="region-XII" class="item">SOCCSKSARGEN</a>
-                <a href="#todo" data-type="region-XIII" class="item">Caraga</a>
-                <a href="#todo" data-type="NCR" class="item">National Capital Regio</a>              
-                <a href="#todo" data-type="CAR" class="item">Cordillera Administrative Region</a>
-                <a href="#todo" data-type="BARM" class="item">Bangsamoro Autonomous Region in Muslim Mindanao</a>
+                <a href="#todo" data-type="region-I" id="region-I" class="item">Ilocos Region</a>
+                <a href="#todo" data-type="region-II" id="region-II" class="item">Cagayan Valley</a>
+                <a href="#todo" data-type="region-III"  id="region-III" class="item">Central Luzon</a>
+                <a href="#todo" data-type="region-IV" id="region-IV" class="item">Calabarzon</a>
+                <a href="#todo" data-type="minaropa"  id="minaropa"  class="item">MIMAROPA</a>
+                <a href="#todo" data-type="region-V" id="region-V" class="item">Bicol Region</a>
+                <a href="#todo" data-type="region-VI" id="region-VI"  class="item">Western Visayas</a>
+                <a href="#todo" data-type="region-VII" id="region-VII" class="item">Central Visayas</a>
+                <a href="#todo" data-type="region-VIII" id="region-VIII" class="item">Eastern Visayas</a>
+                <a href="#todo" data-type="region-IX" id="region-IX" class="item">Zamboanga Peninsula</a>
+                <a href="#todo" data-type="region-X" id="region-X" class="item">Northern Mindanao</a>
+                <a href="#todo" data-type="region-XI" id="region-XI" class="item">Davao Region</a>
+                <a href="#todo" data-type="region-XII" id="region-XII" class="item">SOCCSKSARGEN</a>
+                <a href="#todo" data-type="region-XIII" id="region-XIII" class="item">Caraga</a>
+                <a href="#todo" data-type="NCR" id="NCR"  class="item">National Capital Regio</a>              
+                <a href="#todo" data-type="CAR"  id="CAR"  class="item">Cordillera Administrative Region</a>
+                <a href="#todo" data-type="BARM" id="BARM" class="item">Bangsamoro Autonomous Region in Muslim Mindanao</a>
 
 
     </div>
