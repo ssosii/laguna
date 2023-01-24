@@ -7,7 +7,7 @@
     <br/> <br/> <br/>  <br/> <br/> <br/>
     <?php get_template_part('pages/Home/content', 'single-box')?>
     <?php get_template_part('pages/Home/content', 'map')?>
-    <?php get_template_part('pages/Home/content', 'proces')?>
+    <?php get_template_part('pages/Home/content', 'process')?>
 </main>
 <?php
 get_footer();
