@@ -40,6 +40,16 @@ eval("__webpack_require__.r(__webpack_exports__);\nvar map = function map() {\n 
 
 /***/ }),
 
+/***/ "./resources/js/funcs/setDate.js":
+/*!***************************************!*\
+  !*** ./resources/js/funcs/setDate.js ***!
+  \***************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\nvar setDate = function setDate() {\n  var dateContainer = document.querySelector(\".acutal-date\");\n  var acutalDate = new Date();\n  dateContainer.innerHTML = acutalDate.getFullYear();\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (setDate);\n\n//# sourceURL=webpack://webpack-starter/./resources/js/funcs/setDate.js?");
+
+/***/ }),
+
 /***/ "./resources/js/funcs/transition.js":
 /*!******************************************!*\
   !*** ./resources/js/funcs/transition.js ***!
@@ -56,7 +66,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nfunction _toConsumableArray(a
   \*******************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ \"./resources/scss/style.scss\");\n/* harmony import */ var _funcs_transition__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./funcs/transition */ \"./resources/js/funcs/transition.js\");\n/* harmony import */ var _funcs_headerScrolled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./funcs/headerScrolled */ \"./resources/js/funcs/headerScrolled.js\");\n/* harmony import */ var _funcs_map__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./funcs/map */ \"./resources/js/funcs/map.js\");\n/* harmony import */ var _funcs_fadeInElements__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./funcs/fadeInElements */ \"./resources/js/funcs/fadeInElements.js\");\n\n\nvar isDOMContains = function isDOMContains(selector) {\n  return !!document.querySelector(selector);\n};\n__webpack_require__.e(/*! import() */ \"resources_js_funcs_navigation_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./funcs/navigation */ \"./resources/js/funcs/navigation.js\")).then(function (_ref) {\n  var navigation = _ref.default;\n  return navigation(\".navigationOpen\", \".navigationClose\", \".navigation--component\");\n});\n\n\n\n// import(\"./funcs/langSwitcher\").then(({ default: switcher }) => switcher());\n\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  (0,_funcs_fadeInElements__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n  (0,_funcs_headerScrolled__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(61);\n  (0,_funcs_map__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n});\n(0,_funcs_transition__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack://webpack-starter/./resources/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ \"./resources/scss/style.scss\");\n/* harmony import */ var _funcs_transition__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./funcs/transition */ \"./resources/js/funcs/transition.js\");\n/* harmony import */ var _funcs_setDate__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./funcs/setDate */ \"./resources/js/funcs/setDate.js\");\n/* harmony import */ var _funcs_headerScrolled__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./funcs/headerScrolled */ \"./resources/js/funcs/headerScrolled.js\");\n/* harmony import */ var _funcs_map__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./funcs/map */ \"./resources/js/funcs/map.js\");\n/* harmony import */ var _funcs_fadeInElements__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./funcs/fadeInElements */ \"./resources/js/funcs/fadeInElements.js\");\n\n\nvar isDOMContains = function isDOMContains(selector) {\n  return !!document.querySelector(selector);\n};\n__webpack_require__.e(/*! import() */ \"resources_js_funcs_navigation_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./funcs/navigation */ \"./resources/js/funcs/navigation.js\")).then(function (_ref) {\n  var navigation = _ref.default;\n  return navigation(\".navigationOpen\", \".navigationClose\", \".navigation--component\");\n});\n\n\n\n\n// import(\"./funcs/langSwitcher\").then(({ default: switcher }) => switcher());\n\n(0,_funcs_setDate__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  (0,_funcs_fadeInElements__WEBPACK_IMPORTED_MODULE_5__[\"default\"])();\n  (0,_funcs_headerScrolled__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(61);\n  (0,_funcs_map__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n});\n(0,_funcs_transition__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack://webpack-starter/./resources/js/index.js?");
 
 /***/ }),
 

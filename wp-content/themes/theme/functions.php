@@ -81,4 +81,36 @@ add_filter('get_avatar_data', 'admin_avatar', 100, 2);
 // add_action('admin_menu', 'remove_posts_menu');
 /* hide default posts end*/
 
+if(function_exists('acf_register_block_type')){
+	add_action('acf/init', 'register_acf_bloc_types');
+}
+
+add_action( 'acf/init', 'hfm_acf_init_blocks' ); 
+function hfm_acf_init_blocks() {
+
+    if ( function_exists( 'acf_register_block_type' ) ) {
+        acf_register_block_type(
+            array(
+                'name'            => 'opening-hours',
+                'title'           => 'nazwa',
+                'description'     => 'Display opening hours for a café',
+                'render_template' => 'block-templates/opening-hours.php',
+                'category'        => 'text',
+                'icon'            => 'admin-comments',
+                'api_version'     => 2,
+                'keywords'        => array( 'opening hours', 'hours' ),
+                'mode'            => 'preview',
+                'supports'        => array(
+                    'jsx'        => true,
+                    'color'      => array(
+                        'text'       => true,
+                        'background' => false,
+                    ),
+                    'align_text' => true,
+                ),
+            )
+        );
+    }
+}
+
 ?>

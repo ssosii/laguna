@@ -41,7 +41,9 @@
 
             <div class="left">
                 <a href="<?= get_home_URL(); ?>" class="logo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" class="image" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" class="image"
+                        style="width:200px" />
+                    <!-- znależć css -->
 
                 </a>
             </div>
@@ -63,13 +65,13 @@
             </nav>
 
             <div class="action">
-            <div class="estimate">
-                <a href="tel:0048500405405">+48 500 405 405</a>
-            </div>
+                <div class="estimate">
+                    <a href="tel:0048500405405">+48 500 405 405</a>
+                </div>
 
-            <div class=" burger navigationOpen">
-                <div class="burger__item"></div>
-            </div>
+                <div class=" burger navigationOpen">
+                    <div class="burger__item"></div>
+                </div>
 
 
             </div>
