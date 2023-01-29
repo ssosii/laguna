@@ -81,33 +81,53 @@ add_filter('get_avatar_data', 'admin_avatar', 100, 2);
 // add_action('admin_menu', 'remove_posts_menu');
 /* hide default posts end*/
 
-if(function_exists('acf_register_block_type')){
-	add_action('acf/init', 'register_acf_bloc_types');
-}
+function Filipiny()
+{
+  register_post_type('Filipiny', array(
+    'labels' => array(
+      'name' => _x('Filipiny', 'Filipiny', 'Filipiny'),
+      'singular_name'      => _x('Region', 'Region', 'Region'),
+      'add_new'            => _x('Dodaj Region', 'dodaj', 'dodaj'),
+      'add_new_item'       => __('Dodaj nową Region', 'dodaj nowy', 'dodaj-nowy'),
+      'new_item'           => __('Nowy Region', 'nowy'),
+      'edit_item'          => __('Edytuj Region', 'edytuj'),
+      'view_item'          => __('Zobacz Region', 'zobacz'),
+      'all_items'          => __('Region', 'wszystkie'),
+      'search_items'       => __('Szukaj Region', 'szukaj'),
+      'parent_item_colon'  => __('Rodzic Regionu', 'rodzic'),
+      'not_found'          => __('Nie znaleziono Regionu.', 'nie-znaleziono'),
+      'not_found_in_trash' => __('Nie znaleziono Regionu w koszu.', 'nie-znaleziono-w-koszu')
+    ),
+    'has_archive'        => true,
+    'public'             => true,
+    'publicly_queryable' => true,
+    'menu_position'      => 20,
+    'rewrite'            => array('slug' => 'Region'),
+    'capability_type'    => 'post',
+    'menu_icon'          => 'dashicons-admin-site-alt',
+    'supports'           => array('title', 'thumbnail'),
+  ));
 
-add_action( 'acf/init', 'hfm_acf_init_blocks' ); 
+}
+add_action('init', 'Filipiny');
+
+add_action( 'acf/init', 'hfm_acf_init_blocks' );
 function hfm_acf_init_blocks() {
 
     if ( function_exists( 'acf_register_block_type' ) ) {
         acf_register_block_type(
             array(
-                'name'            => 'opening-hours',
-                'title'           => 'nazwa',
-                'description'     => 'Display opening hours for a café',
-                'render_template' => 'block-templates/opening-hours.php',
-                'category'        => 'text',
+                'name'            => 'kuya-main',
+                'title'           => 'Kuya-Main',
+                'description'     => 'Główny blok',
+                'render_template' => 'block-templates/single-box.php',
+                'category'        => 'layout',
                 'icon'            => 'admin-comments',
                 'api_version'     => 2,
                 'keywords'        => array( 'opening hours', 'hours' ),
                 'mode'            => 'preview',
-                'supports'        => array(
-                    'jsx'        => true,
-                    'color'      => array(
-                        'text'       => true,
-                        'background' => false,
-                    ),
-                    'align_text' => true,
-                ),
+                'align'           => 'full',
+             
             )
         );
     }

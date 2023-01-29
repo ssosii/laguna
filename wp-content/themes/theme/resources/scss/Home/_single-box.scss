@@ -1,50 +1,46 @@
-#single-box {
+.single-box {
     padding: 5rem;
     color: $gray;
-    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
 
-    .single-box {
+    &:nth-of-type(odd) {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        flex-direction: row;
+        flex-direction: row-reverse;
+    }
 
-        &:nth-of-type(odd) {
-            display: flex;
-            flex-direction: row-reverse;
+    &__element {
+        flex-basis: 90%;
+
+        @include lg-up() {
+            flex-basis: 45%;
         }
+    }
 
-        &__element {
-            flex-basis: 90%;
+    &__title {
+        margin: 0;
 
-            @include lg-up() {
-                flex-basis: 45%;
-            }
-        }
-
-        &__title {
-            margin: 0;
-
-            &--small {
-                text-transform: uppercase;
-                font-size: 1.5rem;
-                letter-spacing: 1px;
-            }
-
-            &--big {
-                font-size: 3rem;
-                color: $primary;
-                position: relative;
-                padding-bottom: 1rem;
-            }
-        }
-
-        &__text {
+        &--small {
+            text-transform: uppercase;
             font-size: 1.5rem;
+            letter-spacing: 1px;
         }
 
-        &__image {
-            width: 100%;
+        &--big {
+            font-size: 3rem;
+            color: $primary;
+            position: relative;
+            padding-bottom: 1rem;
         }
+    }
+
+    &__text {
+        font-size: 1.5rem;
+    }
+
+    &__image {
+        width: 100%;
     }
 }
