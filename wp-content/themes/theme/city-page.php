@@ -4,12 +4,18 @@
 
 <?php get_header(); ?>
 
-<main id="home">
-    <br> <br> <br> <br> <br> <br>
-    <?php get_template_part('pages/Home/content', 'single-box')?>
 
-    <?php get_template_part('pages/Province/content', 'bigCity')?>
-    <?php get_template_part('pages/Province/content', 'smallCity')?>
+
+<main id="home">
+    <br> <br> <br>
+
+    <?php
+if ( function_exists('yoast_breadcrumb') ) {
+  yoast_breadcrumb( '<p class="breadcrumbs container">','</p>' );
+}
+?>
+
+    <?php the_content()?>
 </main>
 
 

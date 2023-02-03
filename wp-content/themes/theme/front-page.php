@@ -4,7 +4,7 @@
 
 <?php get_header(); ?>
 <main id="home">
-    <?php get_template_part('pages/Home/content', 'map')?>
+    <?php the_content()?>
 
 
 </main>

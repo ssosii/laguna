@@ -1,7 +1,7 @@
-<section id="process">
+<section id="four-box">
     <h2 class="main--title --center fadeInTrigger"><?php the_field('nazwa')?></h2>
 
-    <div class="process--list container">
+    <div class="four-box--list container">
 
         <?php if( get_field('block') ): ?>
         <?php while( the_repeater_field('block') ): ?>

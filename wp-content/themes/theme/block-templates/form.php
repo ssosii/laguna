@@ -2,7 +2,7 @@
 
     <div class="form form__container">
 
-        <div class="form__box fadeInTrigger">
+        <div class="form__box">
             <div class="form__title">
                 Napisz do nas!:)
             </div>
@@ -12,7 +12,7 @@
             </div>
 
         </div>
-        <div class="form__box fadeInTrigger">
+        <div class="form__box">
             <img class="form__image" src="<?php the_field("zdjecie")?>" />
 
         </div>

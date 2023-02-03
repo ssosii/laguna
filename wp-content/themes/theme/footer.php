@@ -3,33 +3,30 @@
     <div class="footer footer__container">
         <div class="footer__menu">
 
-            <ul class="footer__list">
-                <li class="footer__item">Lorem ipsum</li>
-                <li class="footer__item">Lorem ipsum</li>
-                <li class="footer__item">Lorem ipsum</li>
 
-            </ul>
+            <?php if( get_field('nawigacja', 'option') ): ?>
+            <?php while( the_repeater_field('nawigacja', 'option') ): ?>
 
-            <ul class="footer__list">
-                <li class="footer__item">Lorem ipsum</li>
-                <li class="footer__item">Lorem ipsum</li>
-                <li class="footer__item">Lorem ipsum</li>
 
-            </ul>
+            <?php if( the_repeater_field('nawigacja_kolumna') ): ?>
+
 
             <ul class="footer__list">
-                <li class="footer__item">Lorem ipsum</li>
-                <li class="footer__item">Lorem ipsum</li>
-                <li class="footer__item">Lorem ipsum</li>
+                <?php while( the_repeater_field('nawigacja_kolumna') ): ?>
 
+                <li class="footer__item"><a
+                        href="<?php the_sub_field("element_link")?>"><?php the_sub_field("Element_nazwa")?></a></li>
+
+                <?php endwhile; ?>
             </ul>
+            <?php endif;?>
 
-            <ul class="footer__list">
-                <li class="footer__item">Lorem ipsum</li>
-                <li class="footer__item">Lorem ipsum</li>
-                <li class="footer__item">Lorem ipsum</li>
 
-            </ul>
+
+            <?php endwhile; ?>
+            <?php endif;?>
+
+
 
         </div>
         <div class="footer__data">
@@ -44,19 +41,24 @@
             </div>
 
             <div class="footer__adress">
-                <p>Add your location</p>
-                <p>123 Anywhere St.,</p>
-                <p>Any City, ST 12345 </p>
+
+                <div class="footer__element"><img class="footer__image"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/img/address.svg" />
+                    <span>123 Anywhere St., Any City, ST 12345</span>
+                </div>
+                <div class="footer__element"><img class="footer__image"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/img/phone.svg" />
+                    <span>+48 577777777</span>
+                </div>
+
+
 
 
             </div>
             <div class="footer__social">
-                <img class="element" src="<?php echo get_template_directory_uri(); ?>/assets/img/ig_pink.svg"
-                    class="image" />
-                <img class="element" src="<?php echo get_template_directory_uri(); ?>/assets/img/ig_pink.svg"
-                    class="image" />
-                <img class="element" src="<?php echo get_template_directory_uri(); ?>/assets/img/ig_pink.svg"
-                    class="image" />
+                <img class="footer__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/insta.svg" />
+                <img class="footer__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/fb.svg" />
+
 
             </div>
         </div>

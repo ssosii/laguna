@@ -6,7 +6,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
 .container {
   max-width: 1390px;
   margin: 0 auto;
@@ -29,7 +28,6 @@ body {
     text-align: center;
   }
 }
-
 
 * {
   box-sizing: border-box;
@@ -60,6 +58,10 @@ body {
 .transition-1.is-active {
   pointer-events: all;
   opacity: 1;
+}
+
+#home {
+  padding: 10rem 0;
 }
 
 a {

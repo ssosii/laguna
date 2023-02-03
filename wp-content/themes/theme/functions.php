@@ -81,35 +81,24 @@ add_filter('get_avatar_data', 'admin_avatar', 100, 2);
 // add_action('admin_menu', 'remove_posts_menu');
 /* hide default posts end*/
 
-function Filipiny()
-{
-  register_post_type('Filipiny', array(
-    'labels' => array(
-      'name' => _x('Filipiny', 'Filipiny', 'Filipiny'),
-      'singular_name'      => _x('Region', 'Region', 'Region'),
-      'add_new'            => _x('Dodaj Region', 'dodaj', 'dodaj'),
-      'add_new_item'       => __('Dodaj nową Region', 'dodaj nowy', 'dodaj-nowy'),
-      'new_item'           => __('Nowy Region', 'nowy'),
-      'edit_item'          => __('Edytuj Region', 'edytuj'),
-      'view_item'          => __('Zobacz Region', 'zobacz'),
-      'all_items'          => __('Region', 'wszystkie'),
-      'search_items'       => __('Szukaj Region', 'szukaj'),
-      'parent_item_colon'  => __('Rodzic Regionu', 'rodzic'),
-      'not_found'          => __('Nie znaleziono Regionu.', 'nie-znaleziono'),
-      'not_found_in_trash' => __('Nie znaleziono Regionu w koszu.', 'nie-znaleziono-w-koszu')
-    ),
-    'has_archive'        => true,
-    'public'             => true,
-    'publicly_queryable' => true,
-    'menu_position'      => 20,
-    'rewrite'            => array('slug' => 'Region'),
-    'capability_type'    => 'post',
-    'menu_icon'          => 'dashicons-admin-site-alt',
-    'supports'           => array('title', 'thumbnail'),
-  ));
 
+add_action('acf/init', 'my_acf_op_init');
+function my_acf_op_init() {
+
+    // Check function exists.
+    if( function_exists('acf_add_options_page') ) {
+
+        // Register options page.
+        $option_page = acf_add_options_page(array(
+            'page_title'    => __('Ustawienia stopki'),
+            'menu_title'    => __('Stopka'),
+            'menu_slug'     => 'theme-general-settings',
+            'capability'    => 'edit_posts',
+            'redirect'      => false
+        ));
+    }
 }
-add_action('init', 'Filipiny');
+
 
 add_action( 'acf/init', 'hfm_acf_init_blocks' );
 function hfm_acf_init_blocks() {
@@ -125,12 +114,99 @@ function hfm_acf_init_blocks() {
                 'icon'            => 'admin-comments',
                 'api_version'     => 2,
                 'keywords'        => array( 'opening hours', 'hours' ),
-                'mode'            => 'preview',
+                'mode'            => 'edit',
                 'align'           => 'full',
              
             )
         );
+
+        acf_register_block_type(
+            array(
+                'name'            => 'kuya-proces',
+                'title'           => 'Kuya-Proces',
+                'description'     => 'Proces blok',
+                'render_template' => 'block-templates/process.php',
+                'category'        => 'layout',
+                'icon'            => 'admin-comments',
+                'api_version'     => 2,
+                'keywords'        => array( 'opening hours', 'hours' ),
+                'mode'            => 'edit',
+                'align'           => 'full',
+             
+            )
+        );
+
+        acf_register_block_type(
+            array(
+                'name'            => 'kuya-city',
+                'title'           => 'Kuya-City',
+                'description'     => 'Duże miasta',
+                'render_template' => 'block-templates/city.php',
+                'category'        => 'layout',
+                'icon'            => 'admin-comments',
+                'api_version'     => 2,
+                'keywords'        => array( 'opening hours', 'hours' ),
+                'mode'            => 'edit',
+                'align'           => 'full',
+             
+            )
+        );
+
+
+        
+        acf_register_block_type(
+            array(
+                'name'            => 'kuya-Mapa',
+                'title'           => 'Kuya-Mapa',
+                'description'     => 'Mapa',
+                'render_template' => 'block-templates/map.php',
+                'category'        => 'layout',
+                'icon'            => 'admin-comments',
+                'api_version'     => 2,
+                'keywords'        => array( 'opening hours', 'hours' ),
+                'mode'            => 'edit',
+                'align'           => 'full',
+             
+            )
+        );
+
+        acf_register_block_type(
+            array(
+                'name'            => 'kuya-four',
+                'title'           => 'Kuya-Four',
+                'description'     => 'Cztery elementy',
+                'render_template' => 'block-templates/four.php',
+                'category'        => 'layout',
+                'icon'            => 'admin-comments',
+                'api_version'     => 2,
+                'keywords'        => array( 'opening hours', 'hours' ),
+                'mode'            => 'edit',
+                'align'           => 'full',
+             
+            )
+        );
+
+
+        acf_register_block_type(
+            array(
+                'name'            => 'kuya-form',
+                'title'           => 'Kuya-Form',
+                'description'     => 'Form',
+                'render_template' => 'block-templates/form.php',
+                'category'        => 'layout',
+                'icon'            => 'admin-comments',
+                'api_version'     => 2,
+                'keywords'        => array( 'opening hours', 'hours' ),
+                'mode'            => 'edit',
+                'align'           => 'full',
+             
+            )
+        );
+
+        
     }
 }
+
+
 
 ?>

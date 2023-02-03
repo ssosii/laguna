@@ -48,6 +48,7 @@
         padding: 4px 11px;
         border-radius: 10px;
         font-size: 1.3rem;
+        text-align: center;
     }
     &__data {
         display: flex;
@@ -74,16 +75,22 @@
     }
 
     &__adress {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 
     &__social {
         display: flex;
+    }
 
-        .element {
-            width: 20px;
-            margin: 4px;
-        }
+    &__element {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    &__image {
+        width: 20px;
+        margin-right: 10px;
     }
 }
 

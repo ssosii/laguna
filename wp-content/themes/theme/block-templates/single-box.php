@@ -24,17 +24,17 @@ $zdjecie = get_field('zdjecie')
 
     <div class="single-box__element">
 
-        <div class="single-box__title">
-            <p class="single-box__title single-box__title--small"><?php echo $smallTitle ?> </p>
-            <h1 class="single-box__title single-box__title--big"><?php echo $bigTitle ?></h1>
+        <div class="single-box__title fadeInTrigger">
+            <p class="single-box__title single-box__title--small fadeInTrigger"><?php echo $smallTitle ?> </p>
+            <h1 class="single-box__title single-box__title--big fadeInTrigger"><?php echo $bigTitle ?></h1>
         </div>
-        <p class="single-box__text">
-            <?php echo $glowny_tekst ?>
+        <p class="single-box__text fadeInTrigger">
+            <?php echo $text ?>
         </p>
     </div>
     <div class="single-box__element">
 
-        <img class="single-box__image" src="<?php echo $zdjecie?>" />
+        <img class="single-box__image fadeInTrigger" src="<?php echo $zdjecie?>" />
 
     </div>
 
