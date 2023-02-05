@@ -8,18 +8,18 @@
             <?php while( the_repeater_field('nawigacja', 'option') ): ?>
 
 
-            <?php if( the_repeater_field('nawigacja_kolumna') ): ?>
+             <?php //if( the_repeater_field('nawigacja_kolumna') ): ?> 
 
 
             <ul class="footer__list">
                 <?php while( the_repeater_field('nawigacja_kolumna') ): ?>
 
-                <li class="footer__item"><a
+              <li class="footer__item"><a
                         href="<?php the_sub_field("element_link")?>"><?php the_sub_field("Element_nazwa")?></a></li>
 
                 <?php endwhile; ?>
             </ul>
-            <?php endif;?>
+            <?php  //endif;?> 
 
 
 
