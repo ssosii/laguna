@@ -5,6 +5,7 @@
 <?php get_header(); ?>
 
 <main id="home">
+       <!-- @todo - utworzyć klasę spacer i wklejać <div class="spacer"></div> -->
     <br> <br> <br>
 
     <?php

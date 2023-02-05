@@ -34,6 +34,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" class="image" />
             </div>
             <div class="footer__slogan">
+                   <!-- @todo - przeniesc do acf -->
                 Your final impact statement goes
                 here. Make it memorable!
 
@@ -44,10 +45,12 @@
 
                 <div class="footer__element"><img class="footer__image"
                         src="<?php echo get_template_directory_uri(); ?>/assets/img/address.svg" />
+                           <!-- @todo - niepoprawne nagłówki (h3,h2?) -->
                     <span>123 Anywhere St., Any City, ST 12345</span>
                 </div>
                 <div class="footer__element"><img class="footer__image"
                         src="<?php echo get_template_directory_uri(); ?>/assets/img/phone.svg" />
+                           <!-- @todo - niepoprawne nagłówki (h3,h2?) -->
                     <span>+48 577777777</span>
                 </div>
 

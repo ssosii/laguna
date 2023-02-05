@@ -66,6 +66,7 @@
 
             <div class="action">
                 <div class="estimate">
+                       <!-- @todo - niepoprawne nagłówki (h3,h2?) -->
                     <a href="tel:0048500405405">+48 500 405 405</a>
                 </div>
 

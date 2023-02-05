@@ -3,6 +3,8 @@
 
 
         <div class="city-box__element">
+
+           <!-- @todo - to podstrona wiec moze h1 i h2? -->
             <div class="city-box__title">
                 <p class="city-box__title city-box__title--small">Mniejszy tekst</p>
                 <h1 class="city-box__title city-box__title--big">Przykładowy nagłówek.</h1>
