@@ -1,5 +1,5 @@
 import "../scss/style.scss";
-import transition from "./funcs/transition";
+// import transition from "./funcs/transition";
 const isDOMContains = (selector) => !!document.querySelector(selector);
 
 import("./funcs/navigation").then(({ default: navigation }) =>
@@ -23,4 +23,4 @@ document.addEventListener("DOMContentLoaded", () => {
     map();
   });
 
-  transition();
+//   transition();
