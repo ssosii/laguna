@@ -13,7 +13,7 @@
 
         </div>
         <div class="form__box">
-            <img class="form__image" src="<?php the_field("zdjecie")?>" />
+            <img class="form__image" src="<?php the_field("zdjecie")?>" alt="<?php the_field("opis_zdjecia")?>" />
 
         </div>
     </div>
