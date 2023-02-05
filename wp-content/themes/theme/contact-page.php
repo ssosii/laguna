@@ -6,7 +6,7 @@
 
 <main id="home">
 
-    <br> <br> <br> <br> <br> <br>
+
     <?php get_template_part('pages/Contact/content', 'map')?>
     <?php get_template_part('pages/Contact/content', 'form')?>
 

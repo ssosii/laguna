@@ -7,7 +7,7 @@
 
 
 <main id="home">
-    <br> <br> <br>
+
 
     <?php
 if ( function_exists('yoast_breadcrumb') ) {
