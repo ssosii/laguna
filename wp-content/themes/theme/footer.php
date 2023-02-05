@@ -8,8 +8,6 @@
             <?php while( the_repeater_field('nawigacja', 'option') ): ?>
 
 
-            <?php if( the_repeater_field('nawigacja_kolumna') ): ?>
-
 
             <ul class="footer__list">
                 <?php while( the_repeater_field('nawigacja_kolumna') ): ?>
@@ -19,7 +17,6 @@
 
                 <?php endwhile; ?>
             </ul>
-            <?php endif;?>
 
 
 
@@ -31,39 +28,28 @@
         </div>
         <div class="footer__data">
             <div class="footer__logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" class="image" />
+                <img src="<?php the_field("footer_logo", 'option')?>" alt="" srcset="">
+
             </div>
             <div class="footer__slogan">
-                   <!-- @todo - przeniesc do acf -->
-                Your final impact statement goes
-                here. Make it memorable!
+                <!-- @todo - przeniesc do acf -->
+                <?php the_field("footer_slogan", 'option')?>
 
 
             </div>
 
             <div class="footer__adress">
-
-                <div class="footer__element"><img class="footer__image"
-                        src="<?php echo get_template_directory_uri(); ?>/assets/img/address.svg" />
-                           <!-- @todo - niepoprawne nagłówki (h3,h2?) -->
-                    <span>123 Anywhere St., Any City, ST 12345</span>
-                </div>
-                <div class="footer__element"><img class="footer__image"
-                        src="<?php echo get_template_directory_uri(); ?>/assets/img/phone.svg" />
-                           <!-- @todo - niepoprawne nagłówki (h3,h2?) -->
-                    <span>+48 577777777</span>
-                </div>
-
+                <?php the_field("address", 'option')?>
 
 
 
             </div>
-            <div class="footer__social">
+            <!-- <div class="footer__social">
                 <img class="footer__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/insta.svg" />
                 <img class="footer__image" src="<?php echo get_template_directory_uri(); ?>/assets/img/fb.svg" />
 
 
-            </div>
+            </div> -->
         </div>
     </div>
 
