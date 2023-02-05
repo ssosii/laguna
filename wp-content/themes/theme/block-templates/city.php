@@ -21,14 +21,14 @@ $zdjecie = get_field('zdjecie')
 
 
 
-<section id="city">
+<section class="city">
     <div class="city-box city-box__container">
 
 
         <div class="city-box__element">
             <div class="city-box__title">
-                <p class="city-box__title city-box__title--small"><?php echo $smallTitle ?></p>
-                <h1 class="city-box__title city-box__title--big"><?php echo $bigTitle ?></h1>
+                <h3 class="city-box__title city-box__title--small"><?php echo $smallTitle ?></h3>
+                <h2 class="city-box__title city-box__title--big"><?php echo $bigTitle ?></h2>
             </div>
             <img class="city-box__image" src="<?php echo $zdjecie ?>" />
 
@@ -42,16 +42,13 @@ $zdjecie = get_field('zdjecie')
             </p>
 
             <div class="city-box__cities">
-                <!-- <div class="city-box__city">Warszawa</div>
-                <div class="city-box__city">Kraków</div>
-                <div class="city-box__city">Częstochowa</div>
-                <div class="city-box__city">Opole</div> -->
+
 
                 <?php if( get_field('miasta') ): ?>
                 <?php while( the_repeater_field('miasta') ): ?>
 
-                <a href="<?php the_sub_field('link'); ?>">
-                    <div class="city-box__city"><?php the_sub_field('miasto'); ?></div>
+                <a class="city-box__city" href="<?php the_sub_field('link'); ?>">
+                    <?php the_sub_field('miasto'); ?>
                 </a>
 
 

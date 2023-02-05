@@ -63,8 +63,7 @@
 
             <div class="left">
                 <a href="<?= get_home_URL(); ?>" class="logo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" class="image"
-                        style="width:80px" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" />
                     <!-- znależć css -->
 
                 </a>

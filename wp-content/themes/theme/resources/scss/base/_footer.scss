@@ -20,7 +20,7 @@
     }
 
     &__logo {
-        width: 200px;
+        width: 110px;
 
         img {
             width: 100%;
@@ -39,7 +39,7 @@
         font-size: 13px;
     }
 
-    &__item:first-child {
+    &__title {
         background-color: $primary;
         color: white;
         font-weight: 600;
@@ -85,7 +85,9 @@
     &__element {
         display: flex;
         align-items: center;
-        margin-bottom: 20px;
+
+        flex-direction: column;
+        margin: 4px;
     }
 
     &__image {

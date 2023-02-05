@@ -7,7 +7,7 @@
 
 
 <main id="home">
-    <br> <br> <br>
+    <div class=”spacer”></div>
 
     <?php
 if ( function_exists('yoast_breadcrumb') ) {
