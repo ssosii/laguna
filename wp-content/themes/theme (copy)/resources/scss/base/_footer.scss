@@ -1,0 +1,102 @@
+#footer {
+    border-top: 2px solid $primary;
+    padding: 2rem 0;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__menu {
+        flex-basis: 90%;
+        display: flex;
+        justify-content: center;
+
+        @include md-up() {
+            flex-basis: 60%;
+            justify-content: flex-start;
+        }
+    }
+
+    &__logo {
+        width: 200px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__list {
+        list-style: none;
+        padding-left: 0;
+        margin: 2rem;
+    }
+
+    &__item {
+        margin: 0.5rem 0;
+        padding: 0 11px;
+        font-size: 13px;
+    }
+
+    &__item:first-child {
+        background-color: $primary;
+        color: white;
+        font-weight: 600;
+        opacity: 0.8;
+        transition: all 0.5s;
+        padding: 4px 11px;
+        border-radius: 10px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    &__data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-basis: 90%;
+        justify-content: center;
+        @include md-up() {
+            flex-basis: 40%;
+            align-items: flex-start;
+        }
+    }
+
+    &__slogan {
+        font-size: 2rem;
+        color: $primary;
+        width: 70%;
+        margin: 2rem 0;
+        text-align: center;
+
+        @include md-up() {
+            text-align: left;
+        }
+    }
+
+    &__adress {
+        font-size: 1.4rem;
+    }
+
+    &__social {
+        display: flex;
+    }
+
+    &__element {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    &__image {
+        width: 20px;
+        margin-right: 10px;
+    }
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 2rem;
+    color: $primary;
+    font-size: 1rem;
+}

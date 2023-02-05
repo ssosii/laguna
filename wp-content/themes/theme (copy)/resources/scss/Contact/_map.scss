@@ -1,0 +1,16 @@
+.map-contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+
+    &__box {
+        flex-basis: 90%;
+        @include md-up() {
+            flex-basis: 45%;
+        }
+    }
+
+    &__data {
+        font-size: 1.4rem;
+    }
+}

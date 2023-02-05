@@ -1,0 +1,71 @@
+#city {
+    padding: 5rem;
+    color: $gray;
+    margin-bottom: 5rem;
+
+    .city-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+
+        &__element {
+            flex-basis: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @include lg-up() {
+                flex-basis: 45%;
+            }
+        }
+
+        &__title {
+            margin: 0;
+
+            &--small {
+                text-transform: uppercase;
+                font-size: 1.5rem;
+                letter-spacing: 1px;
+            }
+
+            &--big {
+                font-size: 3rem;
+                color: $primary;
+                position: relative;
+                padding-bottom: 1rem;
+            }
+        }
+
+        &__text {
+            font-size: 1.5rem;
+        }
+
+        &__image {
+            width: 100%;
+        }
+
+        &__cities {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        &__city {
+            padding: 0.5rem;
+            background-color: $primary;
+            border: 1px solid $primary;
+            color: white;
+            font-size: 1.5rem;
+            border-radius: 5px;
+            margin: 5px;
+            transition: 0.4s;
+
+            &:hover {
+                transition: 0.4s;
+                color: $primary;
+                background-color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
