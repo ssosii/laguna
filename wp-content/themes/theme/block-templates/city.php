@@ -26,10 +26,12 @@ $zdjecie = get_field('zdjecie')
 
 
         <div class="city-box__element">
+            <!-- @todo - niepoprawne nagłówki (h3,h2?) -->
             <div class="city-box__title">
                 <h3 class="city-box__title city-box__title--small"><?php echo $smallTitle ?></h3>
                 <h2 class="city-box__title city-box__title--big"><?php echo $bigTitle ?></h2>
             </div>
+            <!-- @todo - brak edytowalnego alt -->
             <img class="city-box__image" src="<?php echo $zdjecie ?>" />
 
         </div>
@@ -46,9 +48,9 @@ $zdjecie = get_field('zdjecie')
 
                 <?php if( get_field('miasta') ): ?>
                 <?php while( the_repeater_field('miasta') ): ?>
-
-                <a class="city-box__city" href="<?php the_sub_field('link'); ?>">
-                    <?php the_sub_field('miasto'); ?>
+                <!-- @todo - zagłebienie linków -->
+                <a href="<?php the_sub_field('link'); ?>">
+                    <div class="city-box__city"><?php the_sub_field('miasto'); ?></div>
                 </a>
 
 

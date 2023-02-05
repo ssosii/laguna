@@ -4,6 +4,8 @@
         <div class="single-box__element">
 
             <div class="single-box__title">
+
+           <!-- @todo - możemy mieć tylko 1x h1 na podstronie, najczęściej w głownej sekcji hero ,(h2,h3?) -->
                 <p class="single-box__title single-box__title--small">Mniejszy tekst</p>
                 <h1 class="single-box__title single-box__title--big">Przykładowy nagłówek.</h1>
             </div>
