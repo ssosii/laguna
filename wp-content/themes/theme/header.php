@@ -3,6 +3,8 @@
 
 <head>
 
+
+
     <!-- Google -->
     <meta name="description" content="<?php bloginfo('description'); ?>" />
 
@@ -30,6 +32,26 @@
     <!-- styles and scripts in functions.php -->
 
 
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P2QRJ9W');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
     <?php wp_head(); ?>
 </head>
 
@@ -42,7 +64,7 @@
             <div class="left">
                 <a href="<?= get_home_URL(); ?>" class="logo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.svg" class="image"
-                        style="width:200px" />
+                        style="width:80px" />
                     <!-- znależć css -->
 
                 </a>
