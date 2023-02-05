@@ -1,4 +1,4 @@
-<section id="city">
+<section class="city">
     <div class="city-box city-box__container">
 
 
