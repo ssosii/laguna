@@ -1,5 +1,5 @@
 import "../scss/style.scss";
-import transition from "./funcs/transition";
+// import transition from "./funcs/transition";
 const isDOMContains = (selector) => !!document.querySelector(selector);
 
 import("./funcs/navigation").then(({ default: navigation }) =>
@@ -14,13 +14,14 @@ import fadeInElements from "./funcs/fadeInElements";
 // import("./funcs/langSwitcher").then(({ default: switcher }) => switcher());
 
 
-setDate();
-
 
 document.addEventListener("DOMContentLoaded", () => {
     fadeInElements();
     headerScrolled(61);
     map();
+    
+setDate();
+
   });
 
-  transition();
+  // transition();
