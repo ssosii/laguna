@@ -5,7 +5,7 @@
 <?php get_header(); ?>
 
 <main id="home">
-
+<div class="spacer"></div>
 
     <?php get_template_part('pages/Contact/content', 'map')?>
     <?php get_template_part('pages/Contact/content', 'form')?>

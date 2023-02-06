@@ -4,6 +4,7 @@
 
 <?php get_header(); ?>
 <main id="home">
+    <div class="spacer"></div>
     <?php the_content()?>
 
 
