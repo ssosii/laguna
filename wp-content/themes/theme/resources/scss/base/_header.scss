@@ -29,6 +29,10 @@ body._header-scrolled {
   transition: all 0.6s ease-in-out;
   padding: 15px 0;
 
+  @include md-down(){
+    padding: 5px 0;
+  }
+
   &:after {
     transition: all 0.4s;
     background-color: white;
@@ -70,7 +74,14 @@ body._header-scrolled {
   .logo {
     //   filter: brightness(0) invert(1);
     transition: 0.4s;
-    width: 210px;
+    width: 75px;
+    display: inline-block;
+    @include lg-down() {
+      width: 65px;
+    }
+    @include md-down() {
+        width: 55px;
+      }
     img {
       width: 100%;
     }
@@ -192,6 +203,7 @@ body._navigation-open {
     height: 100%;
     background-color: white;
     transform: translateX(100%);
+    flex-direction: column;
     .links {
       display: flex;
       flex-direction: column;
@@ -200,11 +212,14 @@ body._navigation-open {
       flex-wrap: wrap;
       height: 100%;
       width: 100%;
+
       > li {
         margin-right: 0 !important;
         font-size: 26px;
-        display: block !important;
+        // display: block !important;
         margin-bottom: 10px;
+        flex-direction: column;
+        display: flex;
 
         .sub-menu {
           box-shadow: none !important;

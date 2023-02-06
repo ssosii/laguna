@@ -24,4 +24,8 @@ setDate();
 
   });
 
+<<<<<<< HEAD
   // transition();
+=======
+//   transition();
+>>>>>>> e0e41bdc9b21d45932dac5895037ec9607b1d3da

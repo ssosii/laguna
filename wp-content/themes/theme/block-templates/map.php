@@ -47,8 +47,7 @@ $link13 = get_field('link13');
 $link14 = get_field('link14');
 $link15 = get_field('link15');
 $link16 = get_field('link16');
-$link16 = get_field('link17');
-
+$link17 = get_field('link17');
 
 
 ?>
@@ -64,8 +63,6 @@ $link16 = get_field('link17');
     </div>
     <div class="container">
         <div class="map fadeInTrigger">
-            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-            <!-- Created with Inkscape (http://www.inkscape.org/) -->
             <svg data-type="" version="1.1" id="svg2" class="svg" viewBox="0 0 307.71094 540" sodipodi:docname="dot.svg"
                 inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)" xml:space="preserve"
                 xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -328,23 +325,23 @@ $link16 = get_field('link17');
 
         <div class="list fadeInTrigger">
             <!-- <h4 class="title">Regions</h4> -->
-            <a href="<?php echo $link1?>" data-type="region-I" id="region-I" class="item">Ilocos Region</a>
-            <a href="<?php echo $link2?>" data-type="region-II" id="region-II" class="item">Cagayan Valley</a>
-            <a href="<?php echo $link3?>" data-type="region-III" id="region-III" class="item">Central Luzon</a>
-            <a href="<?php echo $link4?>" data-type="region-IV" id="region-IV" class="item">Calabarzon</a>
-            <a href="<?php echo $link5?>" data-type="minaropa" id="minaropa" class="item">MIMAROPA</a>
-            <a href="<?php echo $link6?>" data-type="region-V" id="region-V" class="item">Bicol Region</a>
-            <a href="<?php echo $link7?>" data-type="region-VI" id="region-VI" class="item">Western Visayas</a>
-            <a href="<?php echo $link8?>" data-type="region-VII" id="region-VII" class="item">Central Visayas</a>
-            <a href="<?php echo $link9?>" data-type="region-VIII" id="region-VIII" class="item">Eastern Visayas</a>
-            <a href="<?php echo $link10?>" data-type="region-IX" id="region-IX" class="item">Zamboanga Peninsula</a>
-            <a href="<?php echo $link11?>" data-type="region-X" id="region-X" class="item">Northern Mindanao</a>
-            <a href="<?php echo $link12?>" data-type="region-XI" id="region-XI" class="item">Davao Region</a>
-            <a href="<?php echo $link13?>" data-type="region-XII" id="region-XII" class="item">SOCCSKSARGEN</a>
-            <a href="<?php echo $link14?>" data-type="region-XIII" id="region-XIII" class="item">Caraga</a>
-            <a href="<?php echo $link15?>" data-type="NCR" id="NCR" class="item">National Capital Regio</a>
-            <a href="<?php echo $link16?>" data-type="CAR" id="CAR" class="item">Cordillera Administrative Region</a>
-            <a href="<?php echo $link17?>" data-type="BARM" id="BARM" class="item">Bangsamoro Autonomous Region in
+            <a href="<?php echo $link1;?>" data-type="region-I" id="region-I" class="item">Ilocos Region</a>
+            <a href="<?php echo $link2;?>" data-type="region-II" id="region-II" class="item">Cagayan Valley</a>
+            <a href="<?php echo $link3;?>" data-type="region-III" id="region-III" class="item">Central Luzon</a>
+            <a href="<?php echo $link4;?>" data-type="region-IV" id="region-IV" class="item">Calabarzon</a>
+            <a href="<?php echo $link5;?>" data-type="minaropa" id="minaropa" class="item">MIMAROPA</a>
+            <a href="<?php echo $link6;?>" data-type="region-V" id="region-V" class="item">Bicol Region</a>
+            <a href="<?php echo $link7;?>" data-type="region-VI" id="region-VI" class="item">Western Visayas</a>
+            <a href="<?php echo $link8;?>" data-type="region-VII" id="region-VII" class="item">Central Visayas</a>
+            <a href="<?php echo $link9;?>" data-type="region-VIII" id="region-VIII" class="item">Eastern Visayas</a>
+            <a href="<?php echo $link10;?>" data-type="region-IX" id="region-IX" class="item">Zamboanga Peninsula</a>
+            <a href="<?php echo $link11;?>" data-type="region-X" id="region-X" class="item">Northern Mindanao</a>
+            <a href="<?php echo $link12;?>" data-type="region-XI" id="region-XI" class="item">Davao Region</a>
+            <a href="<?php echo $link13;?>" data-type="region-XII" id="region-XII" class="item">SOCCSKSARGEN</a>
+            <a href="<?php echo $link14;?>" data-type="region-XIII" id="region-XIII" class="item">Caraga</a>
+            <a href="<?php echo $link15;?>" data-type="NCR" id="NCR" class="item">National Capital Regio</a>
+            <a href="<?php echo $link16;?>" data-type="CAR" id="CAR" class="item">Cordillera Administrative Region</a>
+            <a href="<?php echo $link17;?>" data-type="BARM" id="BARM" class="item">Bangsamoro Autonomous Region in
                 Muslim Mindanao</a>
 
 
