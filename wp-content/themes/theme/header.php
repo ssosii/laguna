@@ -29,6 +29,9 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="<?php echo get_bloginfo('description'); ?>">
 
+
+    
+
     <!-- styles and scripts in functions.php -->
 
 
@@ -50,7 +53,11 @@
     })(window, document, 'script', 'dataLayer', 'GTM-P2QRJ9W');
     </script>
     <!-- End Google Tag Manager -->
-
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js"></script>
 
     <?php wp_head(); ?>
 </head>
@@ -76,19 +83,27 @@
             </div>
         </div> -->
 
-                <?php
+        <div class="wrap-links">
+        <?php
                 wp_nav_menu(array(
                     'theme_location' => 'main',
                     'container' => 'ul',
                     'menu_class' => 'links'
                 ));
                 ?>
+
+                       <div class="estimate">
+            <a href="<?php echo get_permalink(20); ?>">GET A QUOTE</a>
+            </div>
+
+        </div>
+       
             </nav>
 
             <div class="action">
                 <div class="estimate">
-                    <!-- @todo - niepoprawne nagłówki (h3,h2?) -->
-                    <a href="tel:0048500405405">+48 500 405 405</a>
+    
+                    <a href="<?php echo get_permalink(20); ?>">GET A QUOTE</a>
                 </div>
 
                 <div class=" burger navigationOpen">
@@ -101,35 +116,3 @@
         </div>
 
     </header>
-
-    <!-- <header class="header">
-        <div class="header__inner">
-            <div class="header__container">
-                <div class="header__container_inner container">
-                <div class="header__left">
-                    <a href="<?php echo get_home_url(); ?>" class="header__logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="logo">
-                    </a>
-                    <nav id="main__nav" class="header__nav">
-                        <?php
-                        wp_nav_menu(array(
-                            'theme_location' => 'main',
-                            'container' => 'ul',
-                            'menu_class' => 'header__items'
-                        ));
-                        ?>
-                    </nav>
-                </div>
-                <div class="estimate">
-                <a href="tel:0048500405405">+48 500 405 405</a>
-                </div>
-          
-                </div>
-                <div class="header__burger">
-                    <div class="header__burger-item"></div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="arrow__up"></div>
-    </header> -->

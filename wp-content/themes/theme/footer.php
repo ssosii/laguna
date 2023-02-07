@@ -58,6 +58,7 @@
     </div>
 
 </footer>
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.js"></script>
 <?php wp_footer(); ?>
 
 </body>

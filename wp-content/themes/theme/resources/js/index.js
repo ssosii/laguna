@@ -9,6 +9,7 @@ import("./funcs/navigation").then(({ default: navigation }) =>
 import setDate from "./funcs/setDate";
 import headerScrolled from "./funcs/headerScrolled";
 import map from "./funcs/map"
+import mapBox from "./funcs/mapBox"
 
 import fadeInElements from "./funcs/fadeInElements";
 // import("./funcs/langSwitcher").then(({ default: switcher }) => switcher());
@@ -18,14 +19,9 @@ import fadeInElements from "./funcs/fadeInElements";
 document.addEventListener("DOMContentLoaded", () => {
     fadeInElements();
     headerScrolled(61);
-    map();
+    // map();
+    mapBox();
     
 setDate();
 
   });
-
-<<<<<<< HEAD
-  // transition();
-=======
-//   transition();
->>>>>>> e0e41bdc9b21d45932dac5895037ec9607b1d3da
