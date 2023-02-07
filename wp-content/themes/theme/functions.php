@@ -207,6 +207,6 @@ function hfm_acf_init_blocks() {
     }
 }
 
-
+remove_filter ('acf_the_content', 'wpautop');
 
 ?>
