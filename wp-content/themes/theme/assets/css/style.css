@@ -220,6 +220,8 @@ body._header-scrolled .header--component .burger__item::after, body._header-scro
   -webkit-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
   padding: 15px 0;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
 }
 @media screen and (max-width: 767px) {
   .header--component {
@@ -522,11 +524,8 @@ body._navigation-open .navigation--component {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
-=======
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -928,11 +927,7 @@ body.page_ #g6219 {
   transition: all 0.2s;
 }
 #map .map #svg2 .st0:hover {
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   opacity: 0.9;
@@ -941,155 +936,87 @@ body.page_ #g6219 {
 #map .map .region-I #region-I {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .region-II #region-II {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .region-III #region-III {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .region-IV #region-IV {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .minaropa #minaropa {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .region-V #region-V {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .region-VI #region-VI {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .region-VII #region-VII {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .region-VIII #region-VIII {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .region-IX #region-IX {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .region-X #region-X {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .region-XI #region-XI {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .region-XII #region-XII {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .region-XIII #region-XIII {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .NCR #NCR {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .CAR #CAR {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .map .BARM #BARM {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  fill: #3971d8 !important;
-=======
   fill: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 #map .list {
   width: 30%;
@@ -1112,185 +1039,93 @@ body.page_ #g6219 {
 #map .list.region-I #region-I {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list.region-II #region-II {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
 }
 #map .list.region-III #region-III {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
 }
 #map .list.region-IV #region-IV {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list.minaropa #minaropa {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list.region-V #region-V {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list.region-VI #region-VI {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list.region-VII #region-VII {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list.region-VIII #region-VIII {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list.region-IX #region-IX {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list.region-X #region-X {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list.region-XI #region-XI {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list.region-XII #region-XII {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list.region-XIII #region-XIII {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list.NCR #NCR {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list.CAR #CAR {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list.BARM #BARM {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-<<<<<<< HEAD
-  background-color: #3971d8 !important;
-=======
-  background-color: red !important;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
-  color: white;
+  color: #1e4fa8 !important;
 }
 #map .list .item {
   padding: 6px 10px;
   border-radius: 5px;
   font-size: 15px;
   display: block;
-<<<<<<< HEAD
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-=======
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 @media screen and (max-width: 991px) {
   #map .list .item {
@@ -1304,14 +1139,9 @@ body.page_ #g6219 {
   }
 }
 #map .list .item:hover {
-<<<<<<< HEAD
-  background-color: #e0320f;
-  color: white;
-=======
   color: #1e4fa8;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 
 #process {
@@ -1457,12 +1287,9 @@ body.page_ #g6219 {
 }
 #four-box .item .description {
   font-size: 14px;
-<<<<<<< HEAD
-=======
   text-align: justify;
   -moz-text-align-last: left;
        text-align-last: left;
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 
 #city {
@@ -1555,12 +1382,6 @@ body.page_ #g6219 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-<<<<<<< HEAD
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 5rem 0;
-=======
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1572,7 +1393,6 @@ body.page_ #g6219 {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
->>>>>>> 6ff2653619f629248b9b4bf256f12c2e22f9afa6
 }
 .form__box {
   -ms-flex-preferred-size: 90%;

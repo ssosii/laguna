@@ -3,7 +3,7 @@ import "../scss/style.scss";
 const isDOMContains = (selector) => !!document.querySelector(selector);
 
 import("./funcs/navigation").then(({ default: navigation }) =>
-  navigation(".navigationOpen", ".navigationClose", ".navigation--component")
+    navigation(".navigationOpen", ".navigationClose", ".navigation--component")
 );
 
 import setDate from "./funcs/setDate";
@@ -19,9 +19,9 @@ import fadeInElements from "./funcs/fadeInElements";
 document.addEventListener("DOMContentLoaded", () => {
     fadeInElements();
     headerScrolled(61);
-    // map();
+    map();
     mapBox();
-    
-setDate();
 
-  });
+    setDate();
+
+});

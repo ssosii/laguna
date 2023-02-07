@@ -3,11 +3,12 @@ const map = () => {
   const mapItems = document.querySelectorAll("#map .map .st0");
   const svgMap = document.querySelector("#svg2");
   const section = document.querySelector("#map .list");
-
+  
   if (!svgMap) return;
 
   Array.from(listItems).map((item) => {
     item.addEventListener("mouseover", function itemHover(e) {
+        console.log("liust");
       const className = e.target.dataset.type;
       svgMap.classList.add(className);
       section.classList.add(className);
