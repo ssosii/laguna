@@ -4,7 +4,7 @@
 
         <div class="form__box">
             <div class="form__title">
-                Napisz do nas!:)
+                Contact with us!
             </div>
             <div class="form__contactForm">
 

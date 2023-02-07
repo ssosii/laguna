@@ -11,6 +11,7 @@
     &__menu {
         flex-basis: 90%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
 
         @include md-up() {
