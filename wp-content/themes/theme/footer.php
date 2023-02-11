@@ -28,7 +28,7 @@
         </div>
         <div class="footer__data">
             <div class="footer__logo">
-                <img src="<?php the_field("footer_logo", 'option')?>" alt="" srcset="">
+                <img loading="lazy" alt=""  src="<?php the_field("footer_logo", 'option')?>" alt="" srcset="">
 
             </div>
             <div class="footer__slogan">

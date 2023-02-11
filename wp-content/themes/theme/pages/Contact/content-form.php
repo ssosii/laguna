@@ -13,7 +13,7 @@
 
         </div>
         <div class="form__box fadeInTrigger">
-            <img class="form__image" src="<?php the_field("zdjecie")?>" />
+            <img class="form__image"  alt="" src="<?php the_field("zdjecie")?>" />
 
         </div>
     </div>

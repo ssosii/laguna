@@ -9,7 +9,7 @@
 
         <div class="item fadeInTrigger">
             <div class="image">
-                <img src="<?php the_sub_field('Ikona'); ?>" alt="<?php the_field("opis_zdjecia")?>" />
+                <img loading="lazy"   alt="" src="<?php the_sub_field('Ikona'); ?>" alt="<?php the_field("opis_zdjecia")?>" />
             </div>
             <h3 class="title"><?php the_sub_field('tytul'); ?></h3>
             <p class="description"><?php the_sub_field('opis'); ?></p>

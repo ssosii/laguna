@@ -24,7 +24,7 @@ $opis_zdjecia = get_field('opis_zdjecia')
 <div class="single-box single-box__container">
 
     <div class="single-box__element">
-        <!-- @todo - niepoprawne nagłówki (h3,h2?) -->
+
         <div class="single-box__title fadeInTrigger">
             <p class="single-box__title single-box__title--small fadeInTrigger"><?php echo $smallTitle ?> </p>
             <h1 class="single-box__title single-box__title--big fadeInTrigger"><?php echo $bigTitle ?></h1>
@@ -34,8 +34,8 @@ $opis_zdjecia = get_field('opis_zdjecia')
         </p>
     </div>
     <div class="single-box__element">
-        <!-- @todo - brak edytowalnego alt -->
-        <img class="single-box__image fadeInTrigger" src="<?php echo $zdjecie?>" alt="<?php echo $opis_zdjecia ?>" />
+
+        <img alt="" class="single-box__image fadeInTrigger" src="<?php echo $zdjecie?>" alt="<?php echo $opis_zdjecia ?>" />
 
     </div>
 

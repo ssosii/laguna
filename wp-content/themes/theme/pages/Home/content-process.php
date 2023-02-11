@@ -4,7 +4,7 @@
         <div class="process--list">
             <div class="item">
                 <div class="image">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/sample.jpg" />
+                    <img loading="lazy"  alt="" src="<?php bloginfo('template_url'); ?>/assets/img/sample.jpg" />
                 </div>
                 <h3 class="title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h3>
                 <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
@@ -13,7 +13,7 @@
             </div>
             <div class="item">
                 <div class="image">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/sample.jpg" />
+                    <img loading="lazy" alt="" src="<?php bloginfo('template_url'); ?>/assets/img/sample.jpg" />
                 </div>
                 <h3 class="title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h3>
                 <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
@@ -22,7 +22,7 @@
             </div>
             <div class="item">
                 <div class="image">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/sample.jpg" />
+                    <img loading="lazy" alt="" src="<?php bloginfo('template_url'); ?>/assets/img/sample.jpg" />
                 </div>
                 <h3 class="title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h3>
                 <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
@@ -31,7 +31,7 @@
             </div>
             <div class="item">
                 <div class="image">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/sample.jpg" />
+                    <img loading="lazy" alt="" src="<?php bloginfo('template_url'); ?>/assets/img/sample.jpg" />
                 </div>
                 <h3 class="title">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</h3>
                 <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu

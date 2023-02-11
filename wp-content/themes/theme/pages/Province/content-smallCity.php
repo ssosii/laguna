@@ -18,7 +18,7 @@
         </div>
         <div class="single-box__element">
 
-            <img class="single-box__image" src="<?php bloginfo('template_url'); ?>/assets/img/sample.jpg" />
+            <img loading="lazy" alt="" class="single-box__image" src="<?php bloginfo('template_url'); ?>/assets/img/sample.jpg" />
 
         </div>
 

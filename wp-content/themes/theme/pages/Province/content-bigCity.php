@@ -9,7 +9,7 @@
                 <p class="city-box__title city-box__title--small">Mniejszy tekst</p>
                 <h1 class="city-box__title city-box__title--big">Przykładowy nagłówek.</h1>
             </div>
-            <img class="city-box__image" src="<?php bloginfo('template_url'); ?>/assets/img/sample.jpg" />
+            <img  loading="lazy" alt="" class="city-box__image" src="<?php bloginfo('template_url'); ?>/assets/img/sample.jpg" />
 
         </div>
 
