@@ -339,7 +339,7 @@ $link17 = get_field('link17');
             <a href="<?php echo $link12;?>" data-type="region-XI" id="region-XI" class="item">Davao Region</a>
             <a href="<?php echo $link13;?>" data-type="region-XII" id="region-XII" class="item">SOCCSKSARGEN</a>
             <a href="<?php echo $link14;?>" data-type="region-XIII" id="region-XIII" class="item">Caraga</a>
-            <a href="<?php echo $link15;?>" data-type="NCR" id="NCR" class="item">National Capital Regio</a>
+            <a href="<?php echo $link15;?>" data-type="NCR" id="NCR" class="item"> Metro Manila</a>
             <a href="<?php echo $link16;?>" data-type="CAR" id="CAR" class="item">Cordillera Administrative Region</a>
             <a href="<?php echo $link17;?>" data-type="BARM" id="BARM" class="item">Bangsamoro Autonomous Region in
                 Muslim Mindanao</a>

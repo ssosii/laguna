@@ -203,6 +203,38 @@ function hfm_acf_init_blocks() {
             )
         );
 
+        acf_register_block_type(
+            array(
+                'name'            => 'kuya-province',
+                'title'           => 'Kuya-province',
+                'description'     => 'Threee',
+                'render_template' => 'block-templates/province.php',
+                'category'        => 'layout',
+                'icon'            => 'admin-comments',
+                'api_version'     => 2,
+                'keywords'        => array( 'opening hours', 'hours' ),
+                'mode'            => 'edit',
+                'align'           => 'full',
+             
+            )
+        );
+
+        acf_register_block_type(
+            array(
+                'name'            => 'kuya-kolumny',
+                'title'           => 'Trzy kolumny',
+                'description'     => 'Three columns',
+                'render_template' => 'block-templates/three.php',
+                'category'        => 'layout',
+                'icon'            => 'admin-comments',
+                'api_version'     => 2,
+                'keywords'        => array( 'opening hours', 'hours' ),
+                'mode'            => 'edit',
+                'align'           => 'full',
+             
+            )
+        );
+
         
     }
 }
