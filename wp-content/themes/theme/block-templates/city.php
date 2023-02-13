@@ -33,7 +33,7 @@ $opis_zdjecia = get_field('opis_zdjecia')
                 <h2 class="city-box__title city-box__title--big"><?php echo $bigTitle ?></h2>
             </div>
             <!-- @todo - brak edytowalnego alt -->
-            <img class="city-box__image" src="<?php echo $zdjecie ?>" alt=<?php echo $opis_zdjecia ?> />
+            <img  loading="lazy"  alt="" class="city-box__image" src="<?php echo $zdjecie ?>" alt=<?php echo $opis_zdjecia ?> />
 
         </div>
 
